@@ -79,4 +79,8 @@ public class CartService {
                 .map(cartItemRepository::findByUser)
                 .orElseGet(List::of);
     }
+
+    public void clearCart(String userId) {
+
+    }
 }
